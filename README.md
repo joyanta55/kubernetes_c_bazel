@@ -24,3 +24,8 @@ Assuming you have already installed bazel in your system, run:
 bazel run //example:list_pod
 ```
 If not bazel installed, install bazel and run the above command.
+
+```bash
+bazel version >=7.3.1
+Works fine on Ubuntu >=22.04.5, centos and other linux platform supposed to work, but have not tried.
+```
