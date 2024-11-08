@@ -1,7 +1,6 @@
 # Import kubernetes C library as bazel Rule.
 
-using ```rules_foreign_cc ```from bazel, this repo shows how kubernetes C client library (https://github.com/joyanta55/c) can be compiled and used as C library. 
-https://github.com/joyanta55/c is the forked repo from k8s official C client library, which have BUILD file added to enable bazel import capability.
+using ```rules_foreign_cc ```from bazel, this repo shows how kubernetes C client library (https://github.com/kubernetes-client/c) can be compiled and used as C library. 
 ```example``` folder contains bazel rule and sample C code.
 
 ## How to Run examples.
