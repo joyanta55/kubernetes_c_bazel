@@ -19,8 +19,8 @@ bazel_features_deps()
 
 http_archive(
     name = "kubernetes_c_client",
-    sha256 = "215818af1b7afc54c2dc83f4ec0498c681d95c86f536cc5dc066477ac4389e22",
-    strip_prefix = "c-master",
-    url = "https://github.com/joyanta55/c/archive/refs/heads/master.zip",
-    build_file_content = "",
+    sha256 = "10d0c5af1a52a1d2da379e8e45b53978b9dedc90ff195bdff171ae17c1f1dd50",
+    strip_prefix = "c-0.11.0",
+    url = "https://github.com/kubernetes-client/c/archive/refs/tags/v0.11.0.zip",
+    build_file = "@//:libkubec.BUILD",
 )
